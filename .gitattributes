@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Единые права и переводы строк
+* text=auto eol=lf
+
+# Бинарные файлы
+*.zip binary
+*.png binary
+*.fbx binary
+*.svg text

@@ -1,0 +1,19 @@
+# Godot
+.godot/
+export.cfg
+export_presets.cfg
+
+# Локальные бэкапы (backup/<дата>/)
+backup/
+
+# Тестовый проект: чужая модель, текстуры и сохранённые сцены — не публикуем
+test/
+# Исходный аддон под Godot 4.2 — чужой код, в публичный репозиторий не нужен
+godot-udim-material-addon-main/
+
+# Архивы выкладываются в GitHub Releases, а не в git
+finals/*.zip
+
+# Служебное
+*.tmp
+shot*.png
